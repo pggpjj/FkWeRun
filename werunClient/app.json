@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/help/help",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/useredit/useredit",
+    "pages/resign/resign"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff7e38",
+    "navigationBarTitleText": "运动步数",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

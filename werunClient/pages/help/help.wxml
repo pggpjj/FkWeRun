@@ -1,0 +1,29 @@
+
+<view class="container">
+  <view class="drawer_content_box_2">
+    <view class="helpinfo-title">一万步打卡说明</view>
+    <view class="drawer_content_2" >
+      <view class="drawer_content_2-item">
+        <view class="item-num">1</view>
+        <view class="item-content">每天坚持10000步打卡</view>
+      </view>
+      <view class="drawer_content_2-item">
+        <view class="item-num">2</view>
+        <view class="item-content">每天登录，即可上传步数。</view>
+      </view>
+      <view class="drawer_content_2-item mt-10">
+        <view class="item-num">3</view>
+        <view class="item-content">由于微信版本更新，可能会导致小程序某些功能异常，请退出微信重新打开。</view>
+      </view>
+      <view class="drawer_content_2-item">
+        <view class="item-num">4</view>
+        <view class="item-content">步数数据来自于微信运动</view>
+      </view>
+      <view class="drawer_content_2-item">
+        <view class="item-num">5</view>
+        <view class="item-content">技术支持 www.jeeweixin.com</view>
+      </view>
+      <button class='contact-btn' open-type="contact" session-from="weapp">联系客服，提醒打卡</button>
+    </view>
+  </view>
+</view>

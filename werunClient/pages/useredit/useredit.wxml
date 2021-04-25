@@ -1,0 +1,15 @@
+
+<view class="cantainer">
+  <view class="title">完善个人数据</view>
+  
+  <form bindsubmit="formSubmit" >
+    <view>身高（cm）：
+      <input maxlength='10' value='{{height}}' name="height" type='number' maxlength='3'></input>
+    </view>
+    <view>体重（kg）：
+      <input maxlength='10' value='{{weight}}' name="weight" type='number' maxlength='3'></input>
+    </view>
+    
+    <button class="submit-btn" form-type="submit" type='primary' >提 交</button>
+  </form>
+</view>

@@ -1,0 +1,80 @@
+/*弹出层样式2*/  
+.helpinfo-title{
+  margin-top: 30px;
+  font-size: 24px;
+  color: #313131;
+}
+.drawer_content_box_2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.drawer_content_2{
+  display:flex;
+  -webkit-flex-direction:row;
+	flex-direction:row;
+  width: 90%;
+  height: 800rpx;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 20rpx;
+  padding: 30rpx 20rpx 20rpx 20rpx;
+}
+.drawer_content_2-item{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.drawer_content_2-item .item-num{
+  width: 70rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #40d07f;
+  border-radius: 50%;
+  margin-right: 20rpx;
+  margin-top: 5rpx;
+  margin-left: 15rpx;
+  font-size: 20px;
+}
+.drawer_content_2-item .item-content{
+  width: 80%;
+  font-size: 16px;
+  text-align: left;
+  color: #313131;
+}
+.contact-btn{
+  width: 80%;
+  margin-top: 60rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #40d07f;
+  border-radius: 40rpx;
+  color: #FFFFFF;
+}
+.contact-btn::after{
+  border: none;
+}
+.drawer_content_2-closebtn-block{
+  margin-bottom: -15rpx;
+}
+.drawer_content_2-closebtn{
+  padding: 0px;
+  width: 75rpx;
+  text-align: center;
+  height: 75rpx;
+  line-height: 75rpx;
+  border-radius:50%;
+  margin-top:5px;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+.drawer_content_2-closebtn::after{
+  border: none;
+}

@@ -1,0 +1,52 @@
+
+<view class="banner-view" bindtap='torank' style='background:url({{bannerbg}}); background-size:100% 100%;'>
+</view>
+
+<view class="container">
+  <canvas disable-scroll="true" bindtouchmove="touchmove" class="mystep-canvas" canvas-id="canvasArc">  
+      <view class="container">
+        <view class="mystep-block">
+          <view class="today-step">{{mystepTitle}}</view>
+          <view class="today-step-num {{scalecls}}">{{mystep}}</view>
+          <view class="today-step">目标10000步</view>
+        </view>
+      </view>
+  </canvas>
+</view>
+
+<view class='mystep-uploadbtn-block'>
+  <button wx:if="{{showDaKaBtn}}" class='mystep-uploadbtn' open-type="getUserInfo" bindgetuserinfo='tohome' > 已打卡</button>
+</view>
+
+<!-- 今日数据栏 -->
+<view class='mystep-data-block'>
+  <view class="data-run-block mr-15"  bindtap='tohome'>
+    <image src='../../images/run.png'></image>
+  </view>
+  <view class="data-item-block mr-15">
+    <view class="data-item-title">{{km}}</view>
+    <view class="data-item-tip">公里</view>
+  </view>
+  <view class="data-item-block mr-10">
+    <view class="data-item-title">{{caloris}}</view>
+    <view class="data-item-tip">卡路里</view>
+  </view>
+</view>
+
+<!-- 右侧小工具栏 -->
+<view class='tools-btn-block'>
+  <view class="tools-btn-item" bindtap='tohelp'>
+    <image class="tools-btn-item-image" src='../../images/help.png'></image>
+  </view>
+  
+  <view class="tools-btn-item" bindtap='tohome'>
+    <image class="tools-btn-item-image" src='../../images/user.png'></image>
+  </view>
+
+  <view class="tools-btn-item" bindtap='redo'>
+    <image class="tools-btn-item-image-rank" src='../../images/redo.png'></image>
+  </view>
+
+</view>
+
+

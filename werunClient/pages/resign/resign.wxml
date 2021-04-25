@@ -1,0 +1,7 @@
+<view class="container">
+
+  <view class="user-nickname-block">
+    <open-data class="user-nickname" type="userNickName"></open-data>，您好
+  </view>
+  <view class="tip-text">补打卡完成</view>
+  </view>

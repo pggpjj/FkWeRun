@@ -1,0 +1,164 @@
+
+.banner-view{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items:flex-end;
+}
+.banner-num-text{
+  font-size: 24px;
+}
+.banner-text{
+  color: #313131;
+  background-color: #FFFFFF;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 60rpx;
+  padding: 0px 20rpx;
+  margin-bottom: 6rpx;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.banner-num-tip{
+  height: 55rpx;
+  font-size: 14px;
+}
+.mystep-canvas{
+  margin-top: 10px;
+  width: 210px;
+  height: 200px;
+}
+.mystep-block{
+  margin-top: 15px;
+  border-radius: 50%;
+  width: 165px;
+  height: 165px;
+  background-color: #ff7e38;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.today-step{
+  font-size: 14px;
+}
+.today-step-num{
+  font-size: 28px;
+  margin: 10px 0rpx;
+}
+.scale-cls{
+  transition: transform 0.5s; 
+  transform: scale(1.4,1.4); 
+}
+.mystep-uploadbtn-block{
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+.mystep-uploadbtn{
+  background-color: #40d07f;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: 1px solid #40d07f;
+  text-align: center;
+  width: 140px;
+  height: 35px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.resign-btn{
+  margin:0px;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #ff7e38;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+/**
+*工具栏按钮
+**/
+.tools-btn-block{
+  position: fixed;
+  right: -5px;
+  width: 50px;
+  height: 130px;
+  top: 200px;
+}
+.tools-btn-item{
+  width: 40px;
+  height: 40px;
+  background-color: #40d07f;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.tools-btn-item-image{
+  width: 34px;
+  height: 34px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.tools-btn-item-image-rank{
+  width: 38px;
+  height: 38px;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+/**
+* 用户数据
+**/
+.mystep-data-block{
+  margin-top:30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.data-run-block{
+  width: 36px;
+  height: 36px;
+  background-color: #40d07f;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.mystep-data-block image{
+  margin-top: 8px;
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+}
+.data-item-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.data-item-title{
+  font-size: 18px;
+  margin-right: 5px;
+}
+.data-item-tip{
+  font-size: 14px;
+}
+
+.remind-block{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.remind-text{
+  text-decoration: underline;
+}
