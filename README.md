@@ -1,4 +1,4 @@
-# 微信步数打开小程序+后端Javaweb
+# 微信运动步数：小程序+Java后端
 
     版权归 jeeweixin.com 所有
     转载请注明出处，授权请联系微信公众号coder10
@@ -30,8 +30,9 @@
         - 1.3.4、配置到tomcat中启动，访问 xxx/test.htm ，如果访问成功，说明启动ok
 
     - 1.4、werunClient需要修改
-        - 1.4.1、修改app.js文件中的appid和URL
-        - 1.4.2、修改project.config.json中的appid
+        - 1.4.1、修改app.js文件中的SERVER_APP_ID：改成自己的appid
+        - 1.4.2、修改HTTP_SERVER、RES_URL：改成本地部署的werunServer的tomcat地址
+        - 1.4.3、修改project.config.json中的appid
 
     - 1.5、视频教程参考：
 
@@ -66,9 +67,11 @@
 ---
 ##### 程序员祁老司
 
-* 公众号：coder10 
-分享视频教程、项目源码、面试笔试题、毕业设计、开发工具、行业经验分享
 * 个人网站：
 www.coder10.net 
 * B站：https://space.bilibili.com/305587632
+* 公众号：coder10 
+分享视频教程、项目源码、面试笔试题、毕业设计、开发工具、行业经验分享
+
+![image](https://github.com/qilaosi/qilaosi/blob/master/images/qrcode.jpg)
 
