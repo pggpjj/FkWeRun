@@ -40,13 +40,26 @@
 
 * 三、项目功能截图
 
+    - 今日步数
+
 ![image](https://github.com/qilaosi/FkWeRun/blob/master/images/2.png)
+
+    - 当月步数
 
 ![image](https://github.com/qilaosi/FkWeRun/blob/master/images/3.png)
 
+    - 小程序代码结构（werunClient）
+
 ![image](https://github.com/qilaosi/FkWeRun/blob/master/images/4.png)
 
+    - 后端代码结构 （werunServer）
+
+![image](https://github.com/qilaosi/FkWeRun/blob/master/images/5.png)
+
+    - 微信开发者工具 
+
 ![image](https://github.com/qilaosi/FkWeRun/blob/master/images/1.png)
+
 
 ---
 ##### 程序员祁老司
